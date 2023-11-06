@@ -1,5 +1,5 @@
-// Jason's priority queue header file
-
+// Jason's priority queue header
+//--------------------------
 #define MAX_NAME_LENGTH 63
 
 typedef struct {
@@ -21,4 +21,3 @@ int getMinPriority(PQueueNode *pqueue);
 int queueLength(PQueueNode *pqueue);
 
 void printThing(void *data);
-
